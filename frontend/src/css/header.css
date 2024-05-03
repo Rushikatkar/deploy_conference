@@ -1,0 +1,44 @@
+.black-background {
+    padding: 30px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+.black-background{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    height: 72px;
+    transition: all 0.5s;
+}
+
+.black-background #logo {
+    float: left;
+}
+
+.black-background #logo h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+#header #logo h1 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+.black-background #logo h1 a:hover {
+    color: #fff;
+}
+
+.black-background #logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 50px;
+}

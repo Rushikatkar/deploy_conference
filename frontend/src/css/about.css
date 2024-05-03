@@ -1,0 +1,139 @@
+#about {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding: 80px 0 60px 0;
+    background: #f2f2f2;
+  }
+ 
+  
+  #about .about-col-1,
+  #about .about-col-2 {
+    padding: 0;
+  }
+  
+  @media (max-width: 575.98px) {
+    #about .about-col-1,
+    #about .about-col-2 {
+        margin: 0 15px;
+    }
+  }
+  
+  #about .about-col-1 {
+    background: #D2691E;
+  }
+  
+  #about .about-col-1::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    top: calc(50% - 20px);
+    right: -20px;
+    background: #D2691E;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  @media (max-width: 767.98px) {
+    #about .about-col-1::before {
+        top: calc(100% - 20px);
+        right: calc(50% - 20px);
+    }
+  }
+  
+  #about .about-title,
+  #about .about-imgs {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  #about .about-title {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #about .about-title h1 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  @media (max-width: 991.98px) {
+    #about .about-title h1 {
+        font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    #about .about-title h1 {
+        font-size: 22px;
+    }
+  }
+  
+  #about .about-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #about .about-img img {
+    transition: .3s
+  }
+  
+  #about .about-img:hover img {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  #about .about-des {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+  
+  @media (max-width: 575.98px) {
+    #about .about-des {
+        padding: 30px 15px 0 15px;
+    }
+  }
+  #about .about-des .about-des-col {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background: #D2691E;
+  }
+  
+  #about .about-des p {
+    margin: 0;
+    padding: 25px 30px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  
+  #about .about-des .about-img::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    bottom: -20px;
+    right: calc(50% - 20px);
+    background: #D2691E;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  #about a {
+    display: inline-block;
+    padding: 8px 30px;
+    color: #D2691E;
+    background: #ffffff;
+  }
+  
+  #about a:hover {
+    color: #ffffff;
+    background: #222222;
+  }
